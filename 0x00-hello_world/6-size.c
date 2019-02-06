@@ -1,0 +1,24 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ *
+ * sizeof: Size in bytes
+ */
+int main(void)
+{
+int integertype;
+char chartype;
+long int longintype;
+long long int long2type;
+float floattype;
+
+printf("Size of char: %ld byte(s)\n", sizeof(chartype);
+printf("Size of int: %ld byte(s)\n", sizeof(integertype);
+printf("Size of long int: %ld byte(s)\n", sizeof(longintype);
+printf("Size of long long int: %ld byte(s)\n", sizeof(long2type);
+printf("Size of float: %ld byte(s)\n", sizeof(floattype);
+
+return (0);
+}
