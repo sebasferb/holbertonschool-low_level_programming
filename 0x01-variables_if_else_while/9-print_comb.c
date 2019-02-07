@@ -14,16 +14,18 @@
 int main(void)
 {
 	int x;
-	int y=',';
-	int z='$';
+	int y;
+	int z;
 
+	y = ',';
+	z = '$';
 
 	for (x = 0; x <= 9; x++)
 	{
 		putchar ((x % 10) + '0');
-		if (y == ',' && x != 9)
+		if ((y == ',') && (x != 9))
 		{
-	putchar (y);
+			putchar (y);
 		}
 		if (x == 9)
 		{
