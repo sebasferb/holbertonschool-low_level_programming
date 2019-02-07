@@ -1,4 +1,4 @@
-#include <stdio.h>
+B#include <stdio.h>
 
 
 /**
@@ -20,6 +20,6 @@ int main(void)
 		putchar (x);
 
 	}
-	putchar (x);
+	putchar ('\n');
 return (0);
 }
