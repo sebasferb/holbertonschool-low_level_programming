@@ -7,7 +7,6 @@
  *
  * Putchar: write a single character
  *
- * printf: produce output according to a format
  */
 
 int main(void)
@@ -21,7 +20,7 @@ int main(void)
 		{
 			putchar(x);
 			putchar (y);
-			if (x != '8' || y != '9')
+			if (x != 56 || y != 57)
 				putchar (',');
 			putchar (' ');
 		}
