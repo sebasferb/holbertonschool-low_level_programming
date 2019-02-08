@@ -15,7 +15,9 @@ int main(void)
 {
 	int x;
 	int y;
+	int z;
 
+	z = ' ';
 	y = ',';
 
 	for (x = 0; x <= 9; x++)
@@ -24,6 +26,10 @@ int main(void)
 		if ((y == ',') && (x != 9))
 		{
 			putchar (y);
+		}
+		if ((z == ' ') && (x != 9))
+		{
+			putchar (z);
 		}
 
 	}
