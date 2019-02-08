@@ -15,10 +15,8 @@ int main(void)
 {
 	int x;
 	int y;
-	int z;
 
 	y = ',';
-	z = '$';
 
 	for (x = 0; x <= 9; x++)
 	{
@@ -27,10 +25,7 @@ int main(void)
 		{
 			putchar (y);
 		}
-		if (x == 9)
-		{
-			putchar (z);
-		}
+
 	}
 
 putchar ('\n');
